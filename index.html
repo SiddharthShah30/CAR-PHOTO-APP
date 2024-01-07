@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta attribute="value" charset="UTF-8">
+    <title>CarPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CarPhotoApp</h1>
+      <div>
+        <h2>Car Photos</h2>
+        <p>See more photos <a href="/CarPhotoApp/public/more-cars.html">here</a></p>
+        <a href="/CarPhotoApp/public/more-cars.html"><img src="/CarPhotoApp/assets/main-page-1.jpg" alt="car on top of hill with sunset view" height="250px"></a>
+      </div>
+      <hr>
+      <section>
+        <h2>About Cars</h2>
+        <h3>Best type of engine in the cars</h3>
+        <ul>
+          <li><a href="./assets/engine/Koenigsegg Tiny Friendly Giant.jpg">Koenigsegg Tiny Friendly Giant</a></li>
+          <li><a href="./assets/engine/Bugatti W16.jpg">Bugatti W16</a></li>
+          <li><a href="./assets/engine/Chevrolet LT2 V8.jpeg">Chevrolet LT2 V8</a></li>
+        </ul>
+        <hr>
+        <h3>Best Roads in the <i>World</i> to drive car</h3>
+        <figure>
+          <video width="320" height="240" controls>
+            <source src="./assets/videos/video-2.mp4" type="video/mp4">
+          </video>
+          <figcaption>This video was taken from <a href="https://youtu.be/pnX3Kr6PKv8?si=l836Ijh10P9qx5LW">here</a></figcaption>  
+        </figure>
+        <hr>
+        <h3>Top stuff to do maintain your car:</h3>
+        <ol>
+          <li>Know your car</li>
+          <li>Change Oil Regurarly</li>
+          <li>Replace important fuids</li>
+        </ol>
+        <figure>
+          <img src="./assets/main-page-2.jpg" alt="a car meme on customization" height="300px">
+          <figcaption><strong>Never</strong> customise your car too much.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Car Form</h2>
+        <form action="./public/submit.html">
+          <fieldset>
+            <legend>What type your car is?</legend>
+            <label><input id="Front-Wheel" type="radio" name="f-r-a" value="Front-Wheel" checked> Front Wheel</label>
+            <label><input id="Rear-Wheel" type="radio" name="f-r-a" value="Rear-Wheel" checked> Rear Wheel</label>
+            <label><input id="All-Wheel" type="radio" name="f-r-a" value="All-Wheel" checked> All Wheel</label>
+          </fieldset>
+          <fieldset>
+            <legend>Is your car two door or four door?</legend>
+            <input id="two" type="checkbox" name="door" value="two" checked> <label for="two">Two Door</label>
+            <input id="four" type="checkbox" name="door" value="four" > <label for="four">Four Door</label>
+          </fieldset>
+          <input type="text" name="carphotourl" placeholder="Your car/your dream car" required width="max">
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://github.com/SiddharthShah30">SiddharthShah30/GithubProfile</a>
+      </p>
+    </footer>
+  </body>
+</html>
